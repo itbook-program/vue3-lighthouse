@@ -1,0 +1,33 @@
+// color
+$blue: #40A9FF;
+$fontColor: #333333;
+$white: #FFFFFF;
+$bgColor: #F5F5F5;
+$borderColor: #EBEBEB;
+
+// view
+$bodyPadding: 10%;
+$titleHeight: 64px;
+$footerHeight: 260px;
+
+// font
+@mixin font-size{
+  font-weight: 400;
+  color: $fontColor;
+  line-height: 22px;
+}
+
+@mixin flex-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@mixin border-1px{
+  border: 1px solid $borderColor;
+}
+
+@mixin border-bottom-1px{
+  border-bottom: 1px solid $borderColor;
+}
